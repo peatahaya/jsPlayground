@@ -2,9 +2,7 @@ function sum(a, b) {
 	return a + b;
 }
 
-const sumArrow = (a, b) => {
-    return a + b
-}
+const sumArrow = (a, b) => a + b;
 
 function calculateFoodTotal(food, tip) {
 	tipPercentage = tip / 100;
