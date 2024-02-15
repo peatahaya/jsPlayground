@@ -1,8 +1,12 @@
-function calculateFoodTotal(food, tip) {
-    tipPercentage = tip / 100;
-    tipAmount = food * tipPercentage;
-    total = food + tipAmount;
-    return total;
+function sum(a, b) {
+	return a + b;
 }
 
-console.log(calculateFoodTotal(100, 20))
+function calculateFoodTotal(food, tip) {
+	tipPercentage = tip / 100;
+	tipAmount = food * tipPercentage;
+	total = sum(food, tipAmount);
+	return total;
+}
+
+console.log(calculateFoodTotal(100, 20));
